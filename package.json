@@ -1,0 +1,31 @@
+{
+  "name": "tcem-rsa",
+  "version": "1.0.0",
+  "description": "the package support encrypt data and decrypt data through private key and public key, asymmetric encryption",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
+    "build": "babel src --out-dir .",
+    "built": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:minhtranin/tcem-rsa.git"
+  },
+  "keywords": [
+    "rsa"
+  ],
+  "author": "Minh Tran",
+  "license": "Unlicense",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-transform-builtin-extend": "^1.1.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}

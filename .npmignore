@@ -1,0 +1,10 @@
+src/
+test/
+.nyc_output/
+coverage/
+.eslintignore
+.eslintrc
+*.log
+*.yml
+*.config.js
+.babelrc
