@@ -14,7 +14,10 @@ const data = 'hi iam tcem';
 const cypher = encryptStringWithRsaPublicKey(data);
 console.log(cypher);
 ```
-> rbuT3lnpSIdtbQfzw5P61YanhQRZA/mxpFs/lUYWhQ9vQeg+Og9e5Hw8SFxKqsQWPV+SKH2RL349bOFAmXnhV3OOQ9ZSy6varzyI38ZBmURd8Nm2cPT+MTl5vuNXfwxxGo3wFlIcILcOuenan50Zu9f/D6FdTUWEXKtmzyQwXQ7Jt/mbG1YQE9F93Ah4or5ixnN3y5N73N1fy/QOhz9iOpgQtfN7ou7pym0ASP12QU+BmhaiQOGJoDNIpj8Pxgq2UP4vLnJAiHPSTyyUVqYcl0Nj4cA55hAFMnVGdZBQp+JCdC4Ukh9xVFIAwKTR646UAimxseXcJS80kkRaviKGyg==
+> rbuT3lnpSIdtbQfzw5P61YanhQRZA/mxpFs/lUYWhQ9vQeg+Og9e5Hw8SFxKqsQWPV
+Qfzw5P61YanhQRZA/mxpFs/lUYWhQ9vQeg+Og9Qfzw5P61YanhQRZA/mxpFs/lUYWhQ9
+Qfzw5P61YanhQRZA/mxpFs/lUYWhQ9vQeg+Og9Qfzw5P61YanhQRZA/mxpFs/lUYWhQq
+
 ## decrypt
 #### decryptStringWithRsaPublicKey function
 * param
