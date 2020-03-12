@@ -10,7 +10,7 @@ const fs = require("fs");
  * @returns { data is encrypted : any }
  */
 
-const encryptStringWithRsaPublicKey = (toEncrypt, relativeOrAbsolutePathToPublicKey = 'tcem-rsa/src/public.pem') => {
+const encryptStringWithRsaPublicKey = (toEncrypt, relativeOrAbsolutePathToPublicKey = path.join(__dirname, './private.pem')) => {
     const absolutePath = path.resolve(relativeOrAbsolutePathToPublicKey);
     const publicKey = fs.readFileSync(absolutePath, "utf8");
     const buffer = Buffer.alloc(toEncrypt.length, toEncrypt);
@@ -24,7 +24,7 @@ const encryptStringWithRsaPublicKey = (toEncrypt, relativeOrAbsolutePathToPublic
  * @returns { data is decrypted : any }
  */
 
-const decryptStringWithRsaPrivateKey = (toDecrypt, relativeOrAbsolutePathtoPrivateKey = 'tcem-rsa/src/private.pem') => {
+const decryptStringWithRsaPrivateKey = (toDecrypt, relativeOrAbsolutePathtoPrivateKey = path.join(__dirname, './public.pem')) => {
     const absolutePath = path.resolve(relativeOrAbsolutePathtoPrivateKey);
     const privateKey = fs.readFileSync(absolutePath, "utf8");
     const buffer = Buffer.from(toDecrypt, "base64");
