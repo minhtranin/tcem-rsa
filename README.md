@@ -1,6 +1,6 @@
 # Tcem-rsa
 # Solution
-*encrypt data via symmetric encryption algorithm using public key to encrypt and private key to decrypt*
+*encrypt data via asymmetric encryption algorithm using public key to encrypt and private key to decrypt*
 # Example
 ## encrypt
 #### encryptStringWithRsaPublicKey function
