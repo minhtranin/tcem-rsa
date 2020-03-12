@@ -3,7 +3,7 @@
 *encrypt data via symmetric encryption algorithm using public key to encrypt and private key to decrypt*
 # Example
 1. encrypt
-#### encryptStringWithRsaPublicKey
+#### encryptStringWithRsaPublicKey function
 * param
     - data type any
     - path publicKey or dafault
@@ -16,6 +16,7 @@ console.log(cypher);
 > quiwheu1h233!@#!%EWRQWeqehqwuh43%#$%QWEqwehjsdfus891!@#
 ```
 2. decrypt
+#### decryptStringWithRsaPublicKey function
 * param
     - data need to be decypt
     - path publicKey or dafault
@@ -26,6 +27,7 @@ console.log(data);
 > hi iam tcem
 ```
 3. file public key, private key default
+####  publicKey, privateKey  function
 ```
 const { publicKey, privateKey } = required('tcem-rsa)'
 console.log(publicKey)
