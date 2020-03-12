@@ -1,6 +1,6 @@
 {
   "name": "tcem-rsa",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "the package support encrypt data and decrypt data through private key and public key, asymmetric encryption",
   "main": "index.js",
   "scripts": {
